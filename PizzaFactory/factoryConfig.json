@@ -1,0 +1,28 @@
+{
+  "PizzaFactoryConfig": {
+    "LogFileName" : "Pizza Factory Run Log {datetime}.txt",
+    "BaseCookingTime": 3000,
+    "Interval": 2000,
+    "NumberOfPizzas": 50,
+    "Bases": [
+      {
+        "Name": "Deep Pan",
+        "CookingTimeMultiplier": 2.0
+      },
+      {
+        "Name": "Stuffed Crust",
+        "CookingTimeMultiplier": 1.5
+      },
+      {
+        "Name": "Thin and Crispy",
+        "CookingTimeMultiplier": 1.0
+      }
+    ],
+    "Toppings": [
+      "Ham and Mushroom",
+      "Pepperoni",
+      "Vegetable"
+    ]
+  }
+
+}
